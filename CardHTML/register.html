@@ -1,0 +1,96 @@
+<!-- 
+    name *
+    email *
+    phone *
+    website url *
+    age
+    birthdate *
+    favorite vegetable
+    favorite fruit
+    favorite color
+    Wakeup time (question)
+    gender
+    submit
+    reset
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration form</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+        <form action="#">
+            <h1>Personal information</h1>
+            <p>Note that optional fields are marked accordingly.</p>
+            
+            <p>
+                <label for="nameInput">Name: </label>
+                <input type="text" id="nameInput" required minlength="2" maxlength="255" placeholder="First and lastname">
+            </p>
+
+            <p>
+                <label for="emailInput">Email: </label>
+                <input type="email" id="emailInput" required placeholder="example@domain.com">
+            </p>
+
+            <p>
+                <label for="phoneInput">Phone: </label>
+                <input type="tel" id="phoneInput" required placeholder="(+prefix) xxx xxx xxx">
+            </p>
+
+            <p>
+                <label for="websiteInput">Website: </label>
+                <input type="url" id="websiteInput" required maxlength="100" placeholder="http://">
+            </p>
+
+            <p>
+                <label for="ageInput" (optional)>Age: </label>
+                <input type="number" id="ageInput" min=0>
+            </p>
+
+            <p>
+                <label for="birthdateInput">Birthdate: </label>
+                <input type="date" id="birthdateInput">
+            </p>
+
+            <p>
+                <label for="vegetableInput" (optional)>Favorite vegetable: </label>
+                <input type="text" id="vegetableInput">
+            </p>
+
+            <p>
+                <label (optional)>Favorite fruit: 
+                    <select>
+                        <option>Rosii</option>
+                        <option>Gogosari</option>
+                        <option>Ardei</option>
+                        <option>Castraveti</option>
+                    </select>
+                </label>
+                
+            </p>
+            
+            <p>
+                <label for="colorInput" (optional)>Favorite color: </label>
+                <input type="color" id="colorInput">
+            </p>
+
+            <p>
+                <label for="questionInput" (optional)>What is your usual wakeup time? </label>
+                <input type="time">
+            </p>
+
+            <p>
+                <label>Gender: </label> <br>
+                <input type="radio" name="gender">Man <br>
+                <input type="radio" name="gender">Female 
+            </p>
+
+            <button type="submit"> <b>Submit</b> </button>
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
