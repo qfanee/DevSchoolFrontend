@@ -1,100 +1,178 @@
+<!--to do!!!!!
+    list instead of *** at achievements
+    section instead of h2 on each subsection-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Curriculum Vitae</title>
+	<meta charset="UTF-8">
+	<title>Curriculum Vitae</title>
+
+	<link rel="stylesheet" href="main.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Overpass' rel='stylesheet'>
+
 </head>
 <body>
-    <h1><strong>Ionescu Stefan's Resume</strong></h1>
+	<h1><strong>Ionescu Stefan's Resume</strong></h1>
 
-    <h2><strong>Contact: </strong></h2>
-    <p><strong>Email: <em>stefion09@gmail.com</em></strong></p>
-    <p><strong>Phone: <em>0763 999 979</em></strong></p>
-    <p><strong>Location of Residence: <em>Bucharest, Romania</em></strong></p>
-    <p><strong>Social: https://www.linkedin.com/in/ionescu-stefan-248b94170/</strong></p>
+	<div id="top-content">
+		<section>
+			<div class="row">
+				<img style="border-radius: 50%; height: 150px;" src="FBProfile.jpg" alt="Man in white shirt smiling">
+				<div class="column" id="top-name-university">
+					<p id="candidate-name">Ionescu Stefan</p>
+					<p id="candidate-university">Economic Cybernetics</p>
+				</div>
 
-    <div style="width: 500px;">
-        <h2>About me:</h2>
-        <p>I'm an ambitious, perseverent and self-driven student who hopes that thriveness to gain new insights into my domains
-            of interest will help me pursue a dream career. I consider that any job has an impact on your personal development,
-            but it also provides an opportunity to improve your skills or to gain new ones.
-        </p>
-    </div>
-    <br>
+				<div class="column">
+					<p><strong>Email: <a href="mailto:stefion09@gmail.com">stefion09@gmail.com</a></strong></p>
+					<p><strong>Phone: <a href="tel:(+40)0763999979">0763 999 979</a></strong></p>
+					<p><strong>Location of Residence: <em>Bucharest, Romania</em></strong></p>
+					<p><strong>Social: <a href="https://www.linkedin.com/in/ionescu-stefan-248b94170/">https://www.linkedin.com/in/ionescu-stefan-248b94170/</a></strong>
+					</p>
+				</div>
 
-    <h2><strong>Education:</strong></h2>
-    <div>
-        <h3><em>"Elena Cuza" National College - Applied Science</em></h3>
-        <p>From 09/2012 to 06/2016</p>
-    </div>
-    <div>
-        <h3><em>The Bucharest University of Economic Studies - BSc Economic Cybernetics</em></h3>
-        <p>From 10/2017 until present</p>
-    </div>
-    <br>
+			</div>
+		</section>
 
-    <h2><strong>Work Experience:</strong></h2>
-    <div>
-        <h3><em>Sales Assistant @ C&A</em></h3>
-        <p>From 02/2017 to 06/2017</p>
-        <h4>Achievements/ tasks:</h4>
-        <p>***problem solving</p>
-        <p>***attention to details</p>
-        <p>***leadership</p>
-        <p>***responsability</p>
-    </div>
-    <br>
+		<section>
+			<h2>About me:</h2>
+			<p style="text-align: justify">I'm an ambitious, perseverent and self-driven student who hopes that thriveness to gain new insights into my
+				domains
+				of interest will help me pursue a dream career. I consider that any job has an impact on your personal
+				development,
+				but it also provides an opportunity to improve your skills or to gain new ones.
+			</p>
+		</section>
+	</div>
 
-    <div>
-        <h3><em>Junior Backend Programmer @ GDM Webmedia</em></h3>
-        <p>From 04/2018 to 11/2018</p>
-        <h4>Achievements/ tasks:</h4>
-        <p>***solving different tasks under pressure</p>
-        <p>***teamwork</p>
-        <p>***adaptability</p>
-        <p>***organised</p>
-        <p>***self-development</p>
-        <p>***time-management</p>
-        <p>***weekly server maintenance</p>
-    </div>
-    <br>
+	<div id="bottom-content">
+		<div class="row">
+			<div class="column">
+				<section>
+					<h2>EDUCATION</h2>
+					<hr align="left">
+					<div>
+						<h3><em>"Elena Cuza" National Cullege - Applied Science</em></h3>
+						<p>From 09/2012 to 06/2016</p>
+					</div>
+					<div>
+						<h3><em>The Bucharest University of Economic Studies - BSc Economic Cybernetics</em></h3>
+						<p>From 10/2017 until present</p>
+					</div>
+				</section>
+				<br>
 
-    <div>
-        <h3><em>Fullstack developer intern @ Gameloft</em></h3>
-        <p>From 07/2018 to 10/2018</p>
-        <h4>Achievements/ tasks:</h4>
-        <p>***gaining knowledge on Symfony and Angular2.</p>
-        <p>***develop my personal final project (responsive RESTful application).</p>
-        <p>***daily meetings where each individual described what he was going to work on that day.</p>
-        <p>***comprehensive weekly trainings about Angular2.</p>
-    </div>
-    <br>
+				<section id="work-experience-section">
+					<h2>WORK EXPERIENCE</h2>
+					<div>
+						<hr align="left">
+						<h3><em>Sales Assistant @ C&A</em></h3>
+						<p>From 02/2017 to 06/2017</p>
+						<h4>Achievements/ tasks:</h4>
+						<ul>
+							<li>problem solving</li>
+							<li>attention to details</li>
+							<li>leadership</li>
+							<li>responsability</li>
+						</ul>
+					</div>
+					<br>
 
-    <h2><em>Skills:</em></h2>
-    <div>
-        <p>C++</p>
-        <p>Php</p>
-        <p>Js</p>
-        <p>Symfony</p>
-        <p>Angular2</p>
-        <p>Analytical thinking</p>
-    </div>
+					<div>
+						<h3><em>Junior Backend Programmer @ GDM Webmedia</em></h3>
+						<p>From 04/2018 to 11/2018</p>
+						<h4>Achievements/ tasks:</h4>
+						<ul style="list-style-type:disc;">
+							<li>teamwork</li>
+							<li>adaptability</li>
+							<li>organised</li>
+							<li>self-development</li>
+							<li>time-management</li>
+							<li>weekly server maintenance</li>
+						</ul>
+					</div>
+					<br>
 
-    <h2><em>Personal project:</em></h2>
-    <div>
-        <p>My first days at GDM consisted of learning and I was assigned to create an autosuggest for baroko.ro shortly after the learning days.</p>
-        <p>I've created an internal tool which served GDM as a vacation tracker, it was purely made of PHP, Js, HTML+CSS, later on implementing it by using a framework.</p>
-        <p>At the end of my experience, I had to solve some minor tasks, which my mentor gave me, that were related to external customers, tasks like changing the nav bar of a certain page, or fetching the data from an Amazon API call to a database.</p>
-    </div>
+					<div>
+						<h3><em>Fullstack developer intern @ Gameloft</em></h3>
+						<p>From 07/2018 to 10/2018</p>
+						<h4>Achievements/ tasks:</h4>
+						<ul>
+							<li>gaining knowledge on Symfony and Angular2.</li>
+							<li>develop my personal final project (responsive RESTful application).</li>
+							<li>daily meetings where each individual described what he was going to work on that day.</li>
+							<li>comprehensive weekly trainings about Angular2.</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<br>
 
-    <h2><em>Languages</em></h2>
-    <p>English *****</p>
-    <p>French **</p>
+			<div class="column">
+				<section>
+					<h2>SKILLS</h2>
+					<hr align="left">
+					<div>
+						<ul>
+							<li>C++</li>
+							<li>Php</li>
+							<li>Js</li>
+							<li>Symfony</li>
+							<li>Angular2</li>
+							<li>Analytical thinking</li>
+						</ul>
+					</div>
+				</section>
 
-    <h2><em>Interests</em></h2>
-    <p>Social Hobbies</p>
-    <p>Fitness</p>
-    <p>Travelling</p>
-    <p>Programming</p>
+				<section>
+					<h2>PERSONAL PROJECT</h2>
+					<hr align="left">
+					<div>
+						<ul>
+							<li>My first days at GDM consisted of learning and I was assigned to create an autosuggest for baroko.ro
+								shortly
+								after
+								the learning days.
+							</li>
+							<li>I've created an internal toul which served GDM as a vacation tracker, it was purely made of PHP, Js,
+								HTML+CSS,
+								later on implementing it by using a framework.
+							</li>
+							<li>At the end of my experience, I had to sulve some minor tasks, which my mentor gave me, that were
+								related
+								to
+								external customers, tasks like changing the nav bar of a certain page, or fetching the data from an
+								Amazon
+								API
+								call
+								to a database.
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section>
+					<h2>LANGUAGES</h2>
+					<hr align="left">
+					<ul>
+						<li>English *****</li>
+						<li>French **</li>
+					</ul>
+				</section>
+
+				<section>
+					<hr align="left">
+					<h2>INTERESTS</h2>
+					<ul>
+						<li>Social Hobbies</li>
+						<li>Fitness</li>
+						<li>Travelling</li>
+						<li>Programming</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

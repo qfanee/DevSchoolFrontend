@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<style>
+		html{
+			height: 100%;
+		/*	100vh = 100% de mai sus, by default e 100%*/
+		/*	100vw (viewport width) = 100% de mai sus, by default e 100%*/
+		}
+		body{
+			display: flex;
+			flex-direction: column;
+			height:100%;
+			margin: 0
+		/*	by default body are margin in browser*/
+		/*	*/
+		}
+		aside{
+			background: deepskyblue;
+		}
+		footer{
+			background: tomato;
+		}
+		header{
+			background: gold;
+		}
+		main{
+			background: lightgreen;
+			display: flex;
+			flex: 1;
+		/*	flex = 1 ii spunem sa ocupe tot spatiul   ------ se intinde cat poate de mult (atata timp cat nu deranjeaza alte elem)*/
+		}
+	</style>
+
+	<title>Title</title>
+</head>
+<body>
+	<header>
+		<h1>The main header!</h1>
+		<p>A tagline for subtitle</p>
+		<form>
+			<label for="search">Search this website</label><br>
+			<input type="search" name="q" id="search" placeholder="Find in site" autofocus>
+			<button>Go</button>
+		</form>
+	</header>
+
+	<main>
+		<aside>
+			<nav>
+				Navigation links
+			</nav>
+		</aside>
+		<div id="content">
+			This is where the main content goes
+		</div>
+	</main>
+
+	<footer>Copyright &copy; 2019</footer>
+</body>
+</html>
