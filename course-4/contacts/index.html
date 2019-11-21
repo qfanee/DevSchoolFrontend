@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact management</title>
+	<script type="module">   //orice foloseste import / export => e modul ......... poate fi importat cu module
+		import { init } from './index.js';
+		init();
+	</script>
+</head>
+<body>
+
+	<h1>My contacts</h1>
+
+	<form id="form-add">
+		<label for="for-name">
+			<input type="text" name="name" id="for-name" placeholder="Gigel Frone" required>
+		</label>
+
+		<label for="for-email">
+			<input type="email" name="email" id="for-email" placeholder="gigel.frone@gmail.com" required>
+		</label>
+
+		<label for="for-phone">
+			<input type="tel" name="phone" id="for-phone" placeholder="076xxxxxxx" required>
+		</label>
+		<button type="submit">Add new contact</button>
+	</form>
+
+	<form id="form-remove">
+		<ul id="list"></ul>
+		<button type="submit">Remove selected</button>
+	</form>
+
+	<script>
+      // main.init()
+	</script>
+</body>
+</html>

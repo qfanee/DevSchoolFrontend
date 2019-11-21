@@ -1,15 +1,16 @@
-html{
+html {
     height: 100%;
 }
 
-body{
+body {
     font-family: "Overpass";
     /*display: flex;*/
     /*flex-direction: row;*/
     /*height:100%;*/
     /*margin: 0;*/
 }
-#top-name-university{
+
+#top-name-university {
     padding-left: 50px;
 }
 
@@ -23,16 +24,15 @@ body{
 .column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
     flex: 1;
+    /*flex-basis: 100%;*/
 }
 
-#top,
-#bottom {
+#top, #bottom {
     position: fixed;
     left: 0;
     right: 0;
-    height: 50%;
+    /*height: 50%;*/
 }
 
 #top {
@@ -45,43 +45,35 @@ body{
     background-color: green;
 }
 
-section{
-    margin: 0px 30px 0px 30px;
+section {
+    margin: 0 30px 0 30px;
 }
 
-hr{
+hr {
     border: 1px solid cornflowerblue;
-    height: 0.1px;
+    margin-left: 0;
     width: 70%;
 }
 
-h2{
+h2 {
     font-family: "Roboto";
 }
 
-
-img {
-    border-radius: 50%;
-    height: 150px;
-}
-
-ul li{
+ul li {
     margin-bottom: 5px;
 }
 
-h2,
-div > h3,
-#top-name-university > p{
+h2, div > h3, #top-name-university > p {
     font-family: "Roboto";
 }
 
-#candidate-name{
+#candidate-name {
     margin: 0;
     font-size: 30px;
     font-weight: 500;
 }
 
-#candidate-university{
+#candidate-university {
     margin-top: 10px;
     font-size: 20px;
     color: dodgerblue;
